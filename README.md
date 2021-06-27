@@ -29,3 +29,16 @@ The course takes a Cookbook approach and will show you how to build models to so
 
 * [Java SE 8 Programmer 2 (Part II) [Integrated Course]](https://www.packtpub.com/application-development/java-se-8-programmer-2-part-ii-integrated-course?utm_source=github&utm_medium=repository&utm_campaign=9781788297530)
 
+
+mvn dependency:get -DremoteRepositories=https://mvnrepository.com/artifact/org.postgresql/postgresql/ \
+                   -DgroupId=org.postgresql -DartifactId=postgresql -Dversion=9.4-1201-jdbc41 \
+                   -Dtransitive=false
+
+
+
+<!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+<dependency>
+    <groupId>org.postgresql</groupId>
+    <artifactId>postgresql</artifactId>
+    <version>9.4-1201-jdbc41</version>
+</dependency>

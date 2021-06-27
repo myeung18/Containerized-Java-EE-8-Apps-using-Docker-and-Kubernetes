@@ -1,4 +1,5 @@
-FROM docker.sebastian-daschner.com/open-liberty:2
+#FROM docker.sebastian-daschner.com/open-liberty:2
+FROM docker.io/myeung18/open-liberty:1
 
 ENV JVM_ARGS="-Xmx512M"
 
